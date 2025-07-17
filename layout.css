@@ -1,0 +1,121 @@
+.body-header{
+    margin: 0 60px;
+}
+
+/***.....google font use this website -------***/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Special+Elite&display=swap');
+
+.header-text-title {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight:900px;
+  font-style: italic;
+
+}
+
+
+
+/*....header -text login title.....***/
+.header-text-title{
+    text-align: center;
+    margin: 0 auto;
+    background-color: blanchedalmond;
+    color: rgb(234, 7, 7);
+    margin: 2% 35%;
+    border: 2px solid springgreen;
+    border-radius: 10px;
+}
+
+/******login face.......****/
+.login-face{
+    display:flex;
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    box-shadow: 20px 20px 20px;
+    background-color: rgb(251, 6, 6);
+     
+    
+}
+
+/****image .......**/
+.type-of-image{
+   width: 200px;
+    margin-right: 100px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px ;
+    padding: 30px;
+  
+}
+
+.type-gorgies-img{
+    width: 200px;
+    margin-bottom: 50px;
+    padding: 10px;
+    box-shadow: 10px 10px   10px ;
+}
+
+/*****style her login form****/
+
+        .Login-form-container{
+            display: flex;
+            justify-content: center;
+            border: 1px solid salmon;
+            align-items: center;
+            height: 90vh;
+            
+        }
+        .Login-form{
+            display: flex;
+          flex-direction: column;
+          justify-content: center;
+          width: 30%;
+          margin-left: 50px;
+          border-radius: 8px;
+        }
+
+        /***login form header  ***/
+        .login-form-header:hover{
+            background-color: rgb(85, 225, 16);
+            margin: 0px 50px;
+            box-shadow: 20px 20px 20px;
+            color: rgb(245, 236, 248);
+        }
+        
+
+
+        /*****small media query .....***/
+
+
+        @media screen and (max-width: 576px){
+            .body-header{
+               background-color: rgb(15, 233, 19);
+            }
+            .header-text-title{
+                text-align: center;
+                font-size: 15px;
+                font-weight: 300px;
+                justify-content: space-around;
+                margin: 20px;
+            }
+            .login-face{
+                display: grid;
+                grid-template-columns: repeat(1, 1fr);
+                align-items: center;
+            }
+        }
+
+
+
+        /****** .... medium device .....**/
+
+        @media screen and (min-width: 577px) and (max-width:992px){
+             .body-header{
+               background-color: rgb(83, 9, 210);
+            }
+            
+            .login-face{
+                display: grid;
+                grid-template-columns: repeat(1, 1fr);
+                align-items: center;
+            }
+            
+        }
